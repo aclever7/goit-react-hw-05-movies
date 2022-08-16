@@ -13,6 +13,8 @@ export const Home = () => {
   const [searchParams, setSearchParams] = useSearchParams();
   const page = searchParams.get('page');
 
+  console.log(trandingList);
+
   useEffect(() => {
     !page && setSearchParams({ page: 1 });
   }, [setSearchParams, page]);

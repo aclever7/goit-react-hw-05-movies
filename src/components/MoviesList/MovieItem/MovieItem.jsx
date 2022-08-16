@@ -4,7 +4,7 @@ import { Card } from 'antd';
 import PropTypes from 'prop-types';
 import { Item, MovieCard, Img } from './MovieItem.styled';
 
-const Meta = { Card };
+const { Meta } = Card;
 
 export const MovieItem = ({ id, title, img }) => {
   let location = useLocation();

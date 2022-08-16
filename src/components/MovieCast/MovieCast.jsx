@@ -8,7 +8,7 @@ import { CastList } from './CastList/CastList';
 export const MovieCast = () => {
   const [castMovie, setCastMovie] = useState();
   const [loading, setLoading] = useState();
-  const { movieId } = useParams;
+  const { movieId } = useParams();
 
   useEffect(() => {
     async function fetchCast() {

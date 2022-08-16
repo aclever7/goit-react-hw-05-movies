@@ -12,7 +12,7 @@ export const SearchMovie = () => {
   const [isloading, setIsLoading] = useState(false);
   const [moviesByQuery, setMoviesByQuery] = useState();
   const [totalPage, setTotalPage] = useState();
-  const [error, setError] = useState('Please type title');
+  const [error, setError] = useState('TYPE MOVIE TITLE');
   const [searchParams, setSearchParams] = useSearchParams();
   const movie = searchParams.get('movie');
   const page = searchParams.get('page');
@@ -58,7 +58,7 @@ export const SearchMovie = () => {
     <Container>
       <Section>
         <Search
-          placeholder="Type movie title"
+          placeholder="TYPE MOVIE TITLE"
           onSearch={onSearch}
           enterButton
           loading={isloading}
