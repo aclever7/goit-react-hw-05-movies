@@ -1,1 +1,1 @@
-goit-react-hw-05-movies
+An app to store phone book contacts
