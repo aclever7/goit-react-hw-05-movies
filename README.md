@@ -1,1 +1,1 @@
-An app to store phone book contacts
+An app to store and serach movies
