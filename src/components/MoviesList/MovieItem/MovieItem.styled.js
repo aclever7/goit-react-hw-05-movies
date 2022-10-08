@@ -26,6 +26,7 @@ export const Item = styled.li`
 
 export const MovieCard = styled(Card)`
   line-height: 1.2;
+  max-width: 228px;
 
   .ant-card-body {
     padding: 10px;
