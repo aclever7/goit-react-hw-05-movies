@@ -1,1 +1,1 @@
-An app to store and serach movies
+An app to search and store movies
