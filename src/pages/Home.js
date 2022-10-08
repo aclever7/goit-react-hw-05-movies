@@ -49,6 +49,8 @@ export const Home = () => {
             total={totalPage}
             onChange={onChange}
             style={{ display: 'flex', justifyContent: 'center' }}
+            hideOnSinglePage={true}
+            showSizeChanger={false}
           />
         )}
       </Container>
